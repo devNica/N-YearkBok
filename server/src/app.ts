@@ -1,6 +1,11 @@
 import Fastify from 'fastify'
+import userRoutes from './auth/auth.routes'
 
 const server = Fastify({logger: true})
+
+server.register(userRoutes, {
+    prefix: '/auth'
+})
 
 server.get('/test', async function(_request, response){
     return {
