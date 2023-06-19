@@ -11,11 +11,12 @@ datasource db {
 }
 
 model User {
-  id String @id @unique @default("uuid_generated_v4()")
+  id String @id @unique @default(uuid())
   email String @unique
   password String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  phoneNumber String @map("phone_number")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
   info PersonalInfo[]
   @@map(name: "user_account")
 }
@@ -27,6 +28,6 @@ model PersonalInfo {
   address String? @db.VarChar(255)
   age Int
   person User @relation(fields: [userId], references: [id])
-  userId String @unique
+  userId String @unique @map("user_id")
   @@map(name: "personal_info")
 }

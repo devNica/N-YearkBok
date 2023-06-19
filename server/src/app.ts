@@ -1,26 +1,15 @@
-import Fastify from 'fastify'
-import userRoutes from './auth/auth.routes'
-
-const server = Fastify({logger: true})
-
-server.register(userRoutes, {
-    prefix: '/auth'
-})
-
-server.get('/test', async function(_request, response){
-    return {
-        message: 'Server is ok!'
-    }
-})
-
-server.get('/*', async function(_req, res){
-    res.status(400).send({ message: 'page not found'})
-})
+import { authSchemas } from "./auth/auth.schema"
+import { server } from "./configs/server.config"
 
 async function main(){
+
+    for (const schema of authSchemas) {
+        server.addSchema(schema)
+    }
+
     try {
-        await server.listen(3000, '0.0.0.0')
-        console.log('Server ready at http://localhost: 3000')
+        await server.listen({port: 7600, host: '0.0.0.0' })
+        console.log('Server ready at http://localhost: 7600')
     } catch (error) {
         server.log.error(`Error: ${error}`)
         process.exit(1)
