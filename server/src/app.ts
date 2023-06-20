@@ -1,10 +1,10 @@
-import { authSchemas } from "./auth/auth.schema"
 import { server } from "./configs/server.config"
+import { coreSchemas } from "./models"
 
 
 async function main(){
 
-    for (const schema of authSchemas) {
+    for (const schema of coreSchemas) {
         server.addSchema(schema)
     }
 

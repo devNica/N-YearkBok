@@ -1,12 +1,12 @@
-import fastify, { FastifyReply, FastifyRequest } from "fastify";
-import { createdUser, findAllUsers, findUserByEmail } from "./auth.service";
-import { CreateUserInput, LoginInput } from "./auth.schema";
+import { FastifyReply, FastifyRequest } from "fastify";
+import { createdUser, findUserByEmail } from "./auth.service";
 import { verifyPassword } from "../utils/hash";
 import { generateToken } from "../utils/jwt";
+import { CreateUserInputModel, LoginInputModel } from "../models/auth.models";
 
 export async function registerAuthHandler(
     request: FastifyRequest<{
-        Body: CreateUserInput
+        Body: CreateUserInputModel
     }>, reply: FastifyReply) {
     try {
         const user = await createdUser(request.body)
@@ -19,7 +19,7 @@ export async function registerAuthHandler(
 
 export async function loginAuthHandler(
     requets: FastifyRequest<{
-        Body: LoginInput
+        Body: LoginInputModel
     }>,
     reply: FastifyReply
 ) {
@@ -53,16 +53,3 @@ export async function loginAuthHandler(
     }
 }
 
-export async function fetchAllUsers(
-    _requets: FastifyRequest,
-    reply: FastifyReply
-) {
-    try {
-
-        const users = await findAllUsers()
-
-        return reply.code(200).send(users)
-    } catch (error) {
-        return reply.code(500).send(error)
-    }
-}
