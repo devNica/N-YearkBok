@@ -3,7 +3,7 @@ POST http://localhost:7600/auth/signup HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "lam@test.com",
+    "email": "devnica@test.com",
     "password": "Lamisma123*",
     "phoneNumber": "+502-89675634"
 }
@@ -23,9 +23,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkI
 
 
 ### add personal info
-POST http://localhost:7600/auth/signin HTTP/1.1
+POST http://localhost:7600/users HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiMzkyYzRiMmQtN2UwMS00NThjLWIyN2ItZDhmZjA1N2ZlYTY4IiwiZW1haWwiOiJkZXZuaWNhQHRlc3QuY29tIn0sImlhdCI6MTY4NzIyMTU3Mn0.gsC4XtVtr_jnIyzii_1CfHn-x68AGEUbETdzJS1pObw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRmM2Y4NjczLWMyM2MtNDBhNC1iYmIwLTJkY2ZiM2RjYzA5YSIsImVtYWlsIjoiZGV2bmljYUB0ZXN0LmNvbSIsImlhdCI6MTY4NzI3NjkzOX0.sB2CNscfZyq6RuZ8R25aT1Vp4dqGlIg5kmxCyAHx64g
 
 {
     "firstname": "Lucas Andres",

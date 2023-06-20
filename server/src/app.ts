@@ -1,20 +1,27 @@
-import { server } from "./configs/server.config"
-import { coreSchemas } from "./models"
+/* eslint-disable @typescript-eslint/no-floating-promises */
 
+import 'reflect-metadata'
+import 'source-map-support/register'
+import 'module-alias/register'
 
-async function main(){
+import { server } from './configs/server.config'
+import constants from './shared/constants'
+import { coreSchemas } from '@models/index'
 
-    for (const schema of coreSchemas) {
-        server.addSchema(schema)
-    }
+const { SERVER_PORT } = constants
 
-    try {
-        await server.listen({port: 7600, host: '0.0.0.0' })
-        console.log('Server ready at http://localhost: 7600')
-    } catch (error) {
-        console.log(error)
-        process.exit(1)
-    }
+function main (): void {
+  for (const schema of coreSchemas) {
+    server.addSchema(schema)
+  }
+
+  try {
+    server.listen({ port: SERVER_PORT, host: '0.0.0.0' })
+    console.log(`Server ready at port: ${SERVER_PORT}`)
+  } catch (error) {
+    console.log(error)
+    process.exit(1)
+  }
 }
 
 main()

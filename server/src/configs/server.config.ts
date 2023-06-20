@@ -1,41 +1,43 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
 import Fastify, { FastifyReply, FastifyRequest } from 'fastify'
 import fjwt from '@fastify/jwt'
-import authRouter from '../auth/auth.routes'
-import userRouter from '../users/users.routes'
+import authRouter from '@auth/auth.routes'
+import userRouter from '@users/users.routes'
+import constants from '@shared/constants'
 
 export const server = Fastify({ logger: false })
 
-declare module "fastify" {
-    export interface FastifyInstance {
-        authenticate: any
-    }
+declare module 'fastify' {
+  export interface FastifyInstance {
+    authenticate: any
+  }
 }
 
-declare module "@fastify/jwt" {
-    export interface FastifyJWT {
-        user: {
-            id: string,
-            email: string
-        }
+declare module '@fastify/jwt' {
+  export interface FastifyJWT {
+    user: {
+      id: string
+      email: string
     }
+  }
 }
 
 server.register(fjwt, {
-    secret: 'dfhsjfhdjhfjdhjf'
+  secret: constants.JWT_SECRET
 })
 
-server.decorate("authenticate", async (request: FastifyRequest, reply: FastifyReply) => {
-    try {
-        await request.jwtVerify()
-    } catch (error) {
-        return reply.send(error)
-    }
+server.decorate('authenticate', async (request: FastifyRequest, reply: FastifyReply) => {
+  try {
+    await request.jwtVerify()
+  } catch (error) {
+    return await reply.send(error)
+  }
 })
 
 server.register(authRouter, {
-    prefix: '/auth'
+  prefix: '/auth'
 })
 
 server.register(userRouter, {
-    prefix: '/users'
+  prefix: '/users'
 })
