@@ -1,7 +1,9 @@
 import { buildJsonSchemas } from "fastify-zod";
-import { authModels } from "./auth.models";
+import { authModels } from "./auth.model";
+import { userModels } from "./users.model";
 
 
 export const { schemas: coreSchemas, $ref} = buildJsonSchemas({
-  ...authModels
+  ...authModels,
+  ...userModels
 })

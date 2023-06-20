@@ -18,5 +18,18 @@ Content-Type: application/json
 }
 
 ### fetch users
-GET http://localhost:7600/auth/users HTTP/1.1
+GET http://localhost:7600/users HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiMzkyYzRiMmQtN2UwMS00NThjLWIyN2ItZDhmZjA1N2ZlYTY4IiwiZW1haWwiOiJkZXZuaWNhQHRlc3QuY29tIn0sImlhdCI6MTY4NzIyMTU3Mn0.gsC4XtVtr_jnIyzii_1CfHn-x68AGEUbETdzJS1pObw
+
+
+### add personal info
+POST http://localhost:7600/auth/signin HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiMzkyYzRiMmQtN2UwMS00NThjLWIyN2ItZDhmZjA1N2ZlYTY4IiwiZW1haWwiOiJkZXZuaWNhQHRlc3QuY29tIn0sImlhdCI6MTY4NzIyMTU3Mn0.gsC4XtVtr_jnIyzii_1CfHn-x68AGEUbETdzJS1pObw
+
+{
+    "firstname": "Lucas Andres",
+    "lastname": "Marsell",
+    "age": 38,
+    "address": "vivo donde siempre"
+}

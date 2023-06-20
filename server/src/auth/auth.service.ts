@@ -1,8 +1,8 @@
 import prisma from "../utils/prisma";
-import { CreateUserInput } from "./auth.schema";
 import { hashPassword } from '../utils/hash'
+import { CreateUserInputModel } from "../models/auth.model";
 
-export async function createdUser(data: CreateUserInput) {
+export async function createdUser(data: CreateUserInputModel) {
     const newUser = await prisma.user.create({
         data: {
             email: data.email,
@@ -23,14 +23,3 @@ export async function findUserByEmail(email: string) {
     return user
 }
 
-export async function findAllUsers() {
-    const users = await prisma.user.findMany({
-        select: {
-            id: true,
-            email: true,
-            phoneNumber: true,
-            createdAt: true
-        }
-    })
-    return users
-}

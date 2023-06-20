@@ -2,7 +2,7 @@ import { FastifyInstance } from 'fastify'
 import { loginAuthHandler, registerAuthHandler } from './auth.controller'
 import { $ref } from '../models'
 
-async function userRoutes(server: FastifyInstance) {
+async function authRouter(server: FastifyInstance) {
     server.post('/signup',
         {
             schema: {
@@ -33,4 +33,4 @@ async function userRoutes(server: FastifyInstance) {
     //     fetchAllUsers)
 }
 
-export default userRoutes
+export default authRouter

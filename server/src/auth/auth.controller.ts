@@ -2,7 +2,7 @@ import { FastifyReply, FastifyRequest } from "fastify";
 import { createdUser, findUserByEmail } from "./auth.service";
 import { verifyPassword } from "../utils/hash";
 import { generateToken } from "../utils/jwt";
-import { CreateUserInputModel, LoginInputModel } from "../models/auth.models";
+import { CreateUserInputModel, LoginInputModel } from "../models/auth.model";
 
 export async function registerAuthHandler(
     request: FastifyRequest<{

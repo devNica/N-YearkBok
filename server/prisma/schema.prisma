@@ -23,7 +23,7 @@ model User {
 
 model PersonalInfo {
   id Int @id @unique @default(autoincrement())
-  fisrtname String 
+  firstname String 
   lastname String
   address String? @db.VarChar(255)
   age Int

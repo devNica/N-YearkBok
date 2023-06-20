@@ -1,8 +1,9 @@
 import Fastify, { FastifyReply, FastifyRequest } from 'fastify'
 import fjwt from '@fastify/jwt'
-import userRoutes from '../auth/auth.routes'
+import authRouter from '../auth/auth.routes'
+import userRouter from '../users/users.routes'
 
-export const server = Fastify({logger: false})
+export const server = Fastify({ logger: false })
 
 declare module "fastify" {
     export interface FastifyInstance {
@@ -10,11 +11,20 @@ declare module "fastify" {
     }
 }
 
-server.register(fjwt, { 
+declare module "@fastify/jwt" {
+    export interface FastifyJWT {
+        user: {
+            id: string,
+            email: string
+        }
+    }
+}
+
+server.register(fjwt, {
     secret: 'dfhsjfhdjhfjdhjf'
 })
 
-server.decorate("authenticate", async (request: FastifyRequest, reply: FastifyReply)=>{
+server.decorate("authenticate", async (request: FastifyRequest, reply: FastifyReply) => {
     try {
         await request.jwtVerify()
     } catch (error) {
@@ -22,6 +32,10 @@ server.decorate("authenticate", async (request: FastifyRequest, reply: FastifyRe
     }
 })
 
-server.register(userRoutes, {
+server.register(authRouter, {
     prefix: '/auth'
+})
+
+server.register(userRouter, {
+    prefix: '/users'
 })

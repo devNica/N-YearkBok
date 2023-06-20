@@ -6,5 +6,5 @@ interface PayloadModel {
 }
 
 export  function generateToken(payload: PayloadModel): string {
-    return server.jwt.sign({ payload })
+    return server.jwt.sign(payload)
 }
