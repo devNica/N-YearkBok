@@ -31,3 +31,51 @@ model PersonalInfo {
   userId String @unique @map("user_id")
   @@map(name: "personal_info")
 }
+
+
+model MeasurementUnit {
+  id Int @id @unique @default(autoincrement())
+  unit String
+  definition Json @db.Json
+  regions MacroRegion[]
+  states State[]
+  provinces Province[]
+  @@map(name: "measurement_unit")
+}
+
+model MacroRegion {
+  id Int @id @unique @default(autoincrement())
+  name String
+  extension Decimal @db.Decimal(9,2)
+  measurement MeasurementUnit @relation(fields: [measurementId], references: [id])
+  measurementId Int @unique @map("measurement_id")
+  states State[]
+  @@map(name: "macro_region")
+}
+
+model State {
+  id Int @id @unique @default(autoincrement())
+  name String
+  extension Decimal @db.Decimal(9,2)
+  measurement MeasurementUnit @relation(fields: [measurementId], references: [id])
+  measurementId Int @unique @map("measurement_id")
+  region MacroRegion @relation(fields: [regionId], references: [id])
+  regionId Int @unique @map("region_id")
+  provinces Province[]
+  @@map(name: "state")
+}
+
+model Province {
+  id Int @id @unique @default(autoincrement())
+  name String
+  capital String
+  extension Decimal @db.Decimal(9,2)
+  latitude String
+  longitude String
+  msm Decimal @db.Decimal(7,2)
+  measurement MeasurementUnit @relation(fields: [measurementId], references: [id])
+  measurementId Int @unique @map("measurement_id")
+  state State @relation(fields: [stateId], references: [id])
+  stateId Int @unique @map("state_id")
+  @@map(name: "province")
+}

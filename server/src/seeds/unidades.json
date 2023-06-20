@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "unit": "mts",
+        "definition": [{ "es": "metros"}, {"en": "meters" }]
+    },
+    {
+        "id": 2,
+        "unit": "mts2",
+        "definition": [{ "es": "metros cuadrados"}, {"en": "square meters" }]
+    },
+    {
+        "id": 3,
+        "unit": "mts3",
+        "definition": [{ "es": "metros cubicos"}, {"en": "cubic meters" }]
+    },
+    {
+        "id": 4,
+        "unit": "kms",
+        "definition": [{ "es": "kilometros"}, {"en": "kilometers" }]
+    },
+    {
+        "id": 5,
+        "unit": "kms2",
+        "definition": [{ "es": "kilometros cuadrados"}, {"en": "square kilometers" }]
+    }
+]
