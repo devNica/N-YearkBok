@@ -1,5 +1,5 @@
-import prisma from '@utils/prisma'
-import { hashPassword } from '@utils/hash'
+import prisma from '@shared/utils/prisma'
+import { hashPassword } from '@shared/utils/hash'
 import { CreateUserInputModel, CreatedUserOutputModel, UserOutputModel } from '@models/auth.model'
 
 export async function createdUser (data: CreateUserInputModel): Promise<CreatedUserOutputModel> {

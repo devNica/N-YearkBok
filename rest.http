@@ -33,3 +33,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRmM2Y4NjczL
     "age": 38,
     "address": "vivo donde siempre"
 }
+
+
+### migrate seeds
+GET http://localhost:7600/admin/migrate HTTP/1.1

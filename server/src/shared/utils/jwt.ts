@@ -1,4 +1,4 @@
-import { server } from '../configs/server.config'
+import { server } from '../../configs/server.config'
 
 interface PayloadModel {
   id: string

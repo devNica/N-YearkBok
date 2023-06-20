@@ -3,119 +3,119 @@
         "id": 1,
         "name": "Chinandega",
         "extension": 4822.42,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 2,
         "name": "Leon",
         "extension": 5138.03,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 3,
         "name": "Managua",
         "extension": 3465.10,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 4,
         "name": "Masaya",
         "extension": 610.78,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 5,
         "name": "Granada",
         "extension": 1039.68,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 6,
         "name": "Carazo",
         "extension": 1081.40,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 7,
         "name": "Rivas",
         "extension": 2161.82,
-        "region_id": 1,
-        "measurement_id": 5
+        "regionId": 1,
+        "measurementId": 5
     },
     {
         "id": 8,
         "name": "Boaco",
         "extension": 4176.68,
-        "region_id": 2,
-        "measurement_id": 5
+        "regionId": 2,
+        "measurementId": 5
     },
     {
         "id": 9,
         "name": "Chontales",
         "extension": 6481.27,
-        "region_id": 2,
-        "measurement_id": 5
+        "regionId": 2,
+        "measurementId": 5
     },
     {
         "id": 10,
         "name": "Rio San Juan",
         "extension": 7540.90,
-        "region_id": 2,
-        "measurement_id": 5
+        "regionId": 2,
+        "measurementId": 5
     },
     {
         "id": 11,
         "name": "Esteli",
         "extension": 2229.69,
-        "region_id": 3,
-        "measurement_id": 5
+        "regionId": 3,
+        "measurementId": 5
     },
     {
         "id": 12,
         "name": "Jinotega",
         "extension": 9222.40,
-        "region_id": 3,
-        "measurement_id": 5
+        "regionId": 3,
+        "measurementId": 5
     },
     {
         "id": 13,
         "name": "Madriz",
         "extension": 1708.23,
-        "region_id": 3,
-        "measurement_id": 5
+        "regionId": 3,
+        "measurementId": 5
     },
     {
         "id": 14,
         "name": "Matagalpa",
         "extension": 6803.86,
-        "region_id": 3,
-        "measurement_id": 5
+        "regionId": 3,
+        "measurementId": 5
     },
     {
         "id": 15,
         "name": "Nueva Segovia",
         "extension": 3491.28,
-        "region_id": 3,
-        "measurement_id": 5
+        "regionId": 3,
+        "measurementId": 5
     },
     {
         "id": 16,
         "name": "Region Autonoma Costa Caribe Norte",
         "extension": 33105.98,
-        "region_id": 4,
-        "measurement_id": 5
+        "regionId": 4,
+        "measurementId": 5
     },
     {
         "id": 17,
         "name": "Region Autonoma Costa Caribe Sur",
         "extension": 27260.02,
-        "region_id": 4,
-        "measurement_id": 5
+        "regionId": 4,
+        "measurementId": 5
     }
 ]

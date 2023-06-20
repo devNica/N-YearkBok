@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Zona Pacifico",
         "extension": 18319.23,
-        "measurement_id": 5
+        "measurementId": 5
     },
     {
         "id": 2,
         "name": "Zona Central",
         "extension": 18558.85,
-        "measurement_id": 5
+        "measurementId": 5
     },
     {
         "id": 3,
         "name": "Zona Norte",
         "extension": 23095.46,
-        "measurement_id": 5
+        "measurementId": 5
     },
     {
         "id": 4,
         "name": "Zona Regiones Autonomas",
         "extension": 60366.00,
-        "measurement_id": 5
+        "measurementId": 5
     }
 ]

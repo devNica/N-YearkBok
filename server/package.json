@@ -34,8 +34,9 @@
     "@shared": "src/shared",
     "@auth": "src/auth",
     "@users": "src/users",
+    "@admin": "src/admin",
     "@models": "src/models",
-    "@utils": "src/utils"
+    "@seeds": "src/seeds"
   },
   "eslintConfig": {
     "parserOptions": {

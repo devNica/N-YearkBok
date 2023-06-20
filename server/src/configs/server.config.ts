@@ -4,6 +4,7 @@ import fjwt from '@fastify/jwt'
 import authRouter from '@auth/auth.routes'
 import userRouter from '@users/users.routes'
 import constants from '@shared/constants'
+import adminRouter from '../admin/admin.routes'
 
 export const server = Fastify({ logger: false })
 
@@ -40,4 +41,8 @@ server.register(authRouter, {
 
 server.register(userRouter, {
   prefix: '/users'
+})
+
+server.register(adminRouter, {
+  prefix: '/admin'
 })

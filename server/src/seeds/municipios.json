@@ -7,8 +7,8 @@
         "latitude": "12°37'",
         "longitude": "87°07'",
         "msm": 70.42,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 2,
@@ -18,8 +18,8 @@
         "latitude": "12°34'",
         "longitude": "87°01'",
         "msm": 85.42,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 3,
@@ -29,8 +29,8 @@
         "latitude": "13°13'",
         "longitude": "86°52'",
         "msm": 400.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 4,
@@ -40,8 +40,8 @@
         "latitude": "12°29'",
         "longitude": "87°10'",
         "msm": 2.44,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 5,
@@ -51,8 +51,8 @@
         "latitude": "12°32'",
         "longitude": "87°10'",
         "msm": 7.50,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 6,
@@ -62,8 +62,8 @@
         "latitude": "12°40'",
         "longitude": "87°10'",
         "msm": 43.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 7,
@@ -73,8 +73,8 @@
         "latitude": "12°33'",
         "longitude": "86°59'",
         "msm": 70.55,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 8,
@@ -84,8 +84,8 @@
         "latitude": "12°46'",
         "longitude": "87°08'",
         "msm": 10.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 9,
@@ -95,8 +95,8 @@
         "latitude": "13°12'",
         "longitude": "86°46'",
         "msm": 396.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 10,
@@ -106,8 +106,8 @@
         "latitude": "13°16'",
         "longitude": "86°52'",
         "msm": 500.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 11,
@@ -117,8 +117,8 @@
         "latitude": "13°11'",
         "longitude": "86°55'",
         "msm": 180.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 12,
@@ -128,8 +128,8 @@
         "latitude": "13°02'",
         "longitude": "86°54'",
         "msm": 40.67,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 13,
@@ -139,8 +139,8 @@
         "latitude": "12°58'",
         "longitude": "86°49'",
         "msm": 60.00,
-        "state_id": 1,
-        "measurement_id": 5
+        "stateId": 1,
+        "measurementId": 5
     },
     {
         "id": 14,
@@ -150,8 +150,8 @@
         "latitude": "12°26'",
         "longitude": "86°53'",
         "msm": 109.21,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 15,
@@ -161,8 +161,8 @@
         "latitude": "13°03'",
         "longitude": "86°35'",
         "msm": 330.90,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 16,
@@ -172,8 +172,8 @@
         "latitude": "12°43'",
         "longitude": "86°22'",
         "msm": 115.72,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 17,
@@ -183,8 +183,8 @@
         "latitude": "12°53'",
         "longitude": "86°32'",
         "msm": 163.00,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 18,
@@ -194,8 +194,8 @@
         "latitude": "12°20'",
         "longitude": "86°40'",
         "msm": 67.18,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 19,
@@ -205,8 +205,8 @@
         "latitude": "12°40'",
         "longitude": "86°34'",
         "msm": 92.28,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 20,
@@ -216,8 +216,8 @@
         "latitude": "12°15'",
         "longitude": "86°33'",
         "msm": 75.69,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 21,
@@ -227,8 +227,8 @@
         "latitude": "12°30'",
         "longitude": "86°54'",
         "msm": 90.00,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 22,
@@ -238,8 +238,8 @@
         "latitude": "12°48'",
         "longitude": "86°22'",
         "msm": 180.00,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 23,
@@ -249,8 +249,8 @@
         "latitude": "12°31'",
         "longitude": "86°51'",
         "msm": 119.00,
-        "state_id": 2,
-        "measurement_id": 5
+        "stateId": 2,
+        "measurementId": 5
     },
     {
         "id": 24,
@@ -260,8 +260,8 @@
         "latitude": "12°09'",
         "longitude": "86°16'",
         "msm": 82.97,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 25,
@@ -271,8 +271,8 @@
         "latitude": "12°10'",
         "longitude": "86°21'",
         "msm": 90.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 26,
@@ -282,8 +282,8 @@
         "latitude": "11°59'",
         "longitude": "86°18'",
         "msm": 860.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 27,
@@ -293,8 +293,8 @@
         "latitude": "12°14'",
         "longitude": "86°25'",
         "msm": 50.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 28,
@@ -304,8 +304,8 @@
         "latitude": "12°30'",
         "longitude": "86°18'",
         "msm": 40.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 29,
@@ -315,8 +315,8 @@
         "latitude": "11°50'",
         "longitude": "86°26'",
         "msm": 123.13,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 30,
@@ -326,8 +326,8 @@
         "latitude": "12°01'",
         "longitude": "86°12'",
         "msm": 290.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 31,
@@ -337,8 +337,8 @@
         "latitude": "12°11'",
         "longitude": "86°05'",
         "msm": 50.44,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 32,
@@ -348,8 +348,8 @@
         "latitude": "11°58'",
         "longitude": "86°30'",
         "msm": 100.00,
-        "state_id": 3,
-        "measurement_id": 5
+        "stateId": 3,
+        "measurementId": 5
     },
     {
         "id": 33,
@@ -359,8 +359,8 @@
         "latitude": "11°58'",
         "longitude": "86°05'",
         "msm": 234.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 34,
@@ -370,8 +370,8 @@
         "latitude": "11°54'",
         "longitude": "86°04'",
         "msm": 520.36,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 35,
@@ -381,8 +381,8 @@
         "latitude": "11°56'",
         "longitude": "86°11'",
         "msm": 460.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 36,
@@ -392,8 +392,8 @@
         "latitude": "11°55'",
         "longitude": "86°08'",
         "msm": 455.41,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 37,
@@ -403,8 +403,8 @@
         "latitude": "11°55'",
         "longitude": "86°07'",
         "msm": 400.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 38,
@@ -414,8 +414,8 @@
         "latitude": "12°00'",
         "longitude": "86°07'",
         "msm": 220.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 39,
@@ -425,8 +425,8 @@
         "latitude": "11°54'",
         "longitude": "86°05'",
         "msm": 440.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 40,
@@ -436,8 +436,8 @@
         "latitude": "11°54'",
         "longitude": "86°04'",
         "msm": 495.16,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 41,
@@ -447,8 +447,8 @@
         "latitude": "12°04'",
         "longitude": "86°01'",
         "msm": 50.00,
-        "state_id": 4,
-        "measurement_id": 5
+        "stateId": 4,
+        "measurementId": 5
     },
     {
         "id": 42,
@@ -458,8 +458,8 @@
         "latitude": "11°55'",
         "longitude": "86°57'",
         "msm": 60.00,
-        "state_id": 5,
-        "measurement_id": 5
+        "stateId": 5,
+        "measurementId": 5
     },
     {
         "id": 43,
@@ -469,8 +469,8 @@
         "latitude": "11°53'",
         "longitude": "86°03'",
         "msm": 364.26,
-        "state_id": 5,
-        "measurement_id": 5
+        "stateId": 5,
+        "measurementId": 5
     },
     {
         "id": 44,
@@ -480,8 +480,8 @@
         "latitude": "11°52'",
         "longitude": "86°03'",
         "msm": 344.63,
-        "state_id": 5,
-        "measurement_id": 5
+        "stateId": 5,
+        "measurementId": 5
     },
     {
         "id": 45,
@@ -491,8 +491,8 @@
         "latitude": "11°45'",
         "longitude": "86°03'",
         "msm": 140.00,
-        "state_id": 5,
-        "measurement_id": 5
+        "stateId": 5,
+        "measurementId": 5
     },
     {
         "id": 46,
@@ -502,8 +502,8 @@
         "latitude": "11°51'",
         "longitude": "86°12'",
         "msm": 569.10,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 47,
@@ -513,8 +513,8 @@
         "latitude": "11°51'",
         "longitude": "86°14'",
         "msm": 580.13,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 48,
@@ -524,8 +524,8 @@
         "latitude": "11°51'",
         "longitude": "86°13'",
         "msm": 583.10,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 49,
@@ -535,8 +535,8 @@
         "latitude": "11°50'",
         "longitude": "86°10'",
         "msm": 470.00,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 50,
@@ -546,8 +546,8 @@
         "latitude": "11°44'",
         "longitude": "86°11'",
         "msm": 180.00,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 51,
@@ -557,8 +557,8 @@
         "latitude": "11°49'",
         "longitude": "86°07'",
         "msm": 396.00,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 52,
@@ -568,8 +568,8 @@
         "latitude": "11°54'",
         "longitude": "86°12'",
         "msm": 552.40,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 53,
@@ -579,8 +579,8 @@
         "latitude": "11°48'",
         "longitude": "86°09'",
         "msm": 400.00,
-        "state_id": 6,
-        "measurement_id": 5
+        "stateId": 6,
+        "measurementId": 5
     },
     {
         "id": 54,
@@ -590,8 +590,8 @@
         "latitude": "11°26'",
         "longitude": "85°49'",
         "msm": 57.77,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 55,
@@ -601,8 +601,8 @@
         "latitude": "11°34'",
         "longitude": "85°34'",
         "msm": 70.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 56,
@@ -612,8 +612,8 @@
         "latitude": "11°30'",
         "longitude": "85°53'",
         "msm": 80.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 57,
@@ -623,8 +623,8 @@
         "latitude": "11°28'",
         "longitude": "85°49'",
         "msm": 53.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 58,
@@ -634,8 +634,8 @@
         "latitude": "11°11'",
         "longitude": "85°30'",
         "msm": 40.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 59,
@@ -645,8 +645,8 @@
         "latitude": "11°32'",
         "longitude": "85°41'",
         "msm": 60.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 60,
@@ -656,8 +656,8 @@
         "latitude": "11°29'",
         "longitude": "85°51'",
         "msm": 63.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 61,
@@ -667,8 +667,8 @@
         "latitude": "11°27'",
         "longitude": "85°48'",
         "msm": 50.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 62,
@@ -678,8 +678,8 @@
         "latitude": "11°15'",
         "longitude": "85°52'",
         "msm": 3.58,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 63,
@@ -689,8 +689,8 @@
         "latitude": "11°26'",
         "longitude": "85°56'",
         "msm": 40.00,
-        "state_id": 7,
-        "measurement_id": 5
+        "stateId": 7,
+        "measurementId": 5
     },
     {
         "id": 64,
@@ -700,8 +700,8 @@
         "latitude": "12°28'",
         "longitude": "85°39'",
         "msm": 360.00,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 65,
@@ -711,8 +711,8 @@
         "latitude": "12°23'",
         "longitude": "85°30'",
         "msm": 520.00,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 66,
@@ -722,8 +722,8 @@
         "latitude": "12°35'",
         "longitude": "85°45'",
         "msm": 550.00,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 67,
@@ -733,8 +733,8 @@
         "latitude": "12°22'",
         "longitude": "85°40'",
         "msm": 340.00,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 68,
@@ -744,8 +744,8 @@
         "latitude": "12°32'",
         "longitude": "85°42'",
         "msm": 560.00,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 69,
@@ -755,8 +755,8 @@
         "latitude": "12°25'",
         "longitude": "85°48'",
         "msm": 145.36,
-        "state_id": 8,
-        "measurement_id": 5
+        "stateId": 8,
+        "measurementId": 5
     },
     {
         "id": 70,
@@ -766,8 +766,8 @@
         "latitude": "12°06'",
         "longitude": "85°22'",
         "msm": 116.85,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 71,
@@ -777,8 +777,8 @@
         "latitude": "11°58'",
         "longitude": "85°10'",
         "msm": 99.90,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 72,
@@ -788,8 +788,8 @@
         "latitude": "12°17'",
         "longitude": "85°30'",
         "msm": 270.00,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 73,
@@ -799,8 +799,8 @@
         "latitude": "12°12'",
         "longitude": "85°10'",
         "msm": 498.85,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 74,
@@ -810,8 +810,8 @@
         "latitude": "12°07'",
         "longitude": "85°07'",
         "msm": 340.00,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 75,
@@ -821,8 +821,8 @@
         "latitude": "12°15'",
         "longitude": "85°04'",
         "msm": 503.63,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 76,
@@ -832,8 +832,8 @@
         "latitude": "12°04'",
         "longitude": "85°05'",
         "msm": 410.80,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 77,
@@ -843,8 +843,8 @@
         "latitude": "12°02'",
         "longitude": "84°59'",
         "msm": 306.27,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 78,
@@ -854,8 +854,8 @@
         "latitude": "11°55'",
         "longitude": "84°39'",
         "msm": 180.00,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 79,
@@ -865,8 +865,8 @@
         "latitude": "12°16'",
         "longitude": "85°23'",
         "msm": 320.00,
-        "state_id": 9,
-        "measurement_id": 5
+        "stateId": 9,
+        "measurementId": 5
     },
     {
         "id": 80,
@@ -876,8 +876,8 @@
         "latitude": "11°07'",
         "longitude": "84°46'",
         "msm": 39.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 81,
@@ -887,8 +887,8 @@
         "latitude": "11°40'",
         "longitude": "84°42'",
         "msm": 190.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 82,
@@ -898,8 +898,8 @@
         "latitude": "11°02'",
         "longitude": "84°28'",
         "msm": 50.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 83,
@@ -909,8 +909,8 @@
         "latitude": "11°37'",
         "longitude": "85°04'",
         "msm": 45.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 84,
@@ -920,8 +920,8 @@
         "latitude": "10°55'",
         "longitude": "83°42'",
         "msm": 5.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 85,
@@ -931,8 +931,8 @@
         "latitude": "11°24'",
         "longitude": "84°54'",
         "msm": 44.00,
-        "state_id": 10,
-        "measurement_id": 5
+        "stateId": 10,
+        "measurementId": 5
     },
     {
         "id": 86,
@@ -942,8 +942,8 @@
         "latitude": "13°05'",
         "longitude": "86°21'",
         "msm": 843.97,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 87,
@@ -953,8 +953,8 @@
         "latitude": "13°21'",
         "longitude": "86°23'",
         "msm": 560.91,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 88,
@@ -964,8 +964,8 @@
         "latitude": "12°58'",
         "longitude": "86°14'",
         "msm": 601.26,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 89,
@@ -975,8 +975,8 @@
         "latitude": "13°22'",
         "longitude": "86°29'",
         "msm": 606.26,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 90,
@@ -986,8 +986,8 @@
         "latitude": "13°10'",
         "longitude": "86°36'",
         "msm": 281.34,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 91,
@@ -997,8 +997,8 @@
         "latitude": "12°55'",
         "longitude": "86°21'",
         "msm": 985.00,
-        "state_id": 11,
-        "measurement_id": 5
+        "stateId": 11,
+        "measurementId": 5
     },
     {
         "id": 92,
@@ -1008,8 +1008,8 @@
         "latitude": "13°05'",
         "longitude": "86°00'",
         "msm": 1003.87,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 93,
@@ -1019,8 +1019,8 @@
         "latitude": "13°22'",
         "longitude": "85°40'",
         "msm": 600.00,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 94,
@@ -1030,8 +1030,8 @@
         "latitude": "13°11'",
         "longitude": "86°10'",
         "msm": 899.11,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 95,
@@ -1041,8 +1041,8 @@
         "latitude": "13°32'",
         "longitude": "85°32'",
         "msm": 300.00,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 96,
@@ -1052,8 +1052,8 @@
         "latitude": "13°12'",
         "longitude": "86°06'",
         "msm": 1078.68,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 97,
@@ -1063,8 +1063,8 @@
         "latitude": "13°18'",
         "longitude": "86°11'",
         "msm": 851.24,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 98,
@@ -1074,8 +1074,8 @@
         "latitude": "13°21'",
         "longitude": "85°56'",
         "msm": 420.00,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 99,
@@ -1085,8 +1085,8 @@
         "latitude": "13°37'",
         "longitude": "85°49'",
         "msm": 295.53,
-        "state_id": 12,
-        "measurement_id": 5
+        "stateId": 12,
+        "measurementId": 5
     },
     {
         "id": 100,
@@ -1096,8 +1096,8 @@
         "latitude": "13°29'",
         "longitude": "86°35'",
         "msm": 700.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 101,
@@ -1107,8 +1107,8 @@
         "latitude": "13°20'",
         "longitude": "86°37'",
         "msm": 1260.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 102,
@@ -1118,8 +1118,8 @@
         "latitude": "13°27'",
         "longitude": "86°24'",
         "msm": 560.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 103,
@@ -1129,8 +1129,8 @@
         "latitude": "13°17'",
         "longitude": "86°39'",
         "msm": 1280.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 104,
@@ -1140,8 +1140,8 @@
         "latitude": "13°32'",
         "longitude": "86°10'",
         "msm": 840.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 105,
@@ -1151,8 +1151,8 @@
         "latitude": "13°24'",
         "longitude": "86°36'",
         "msm": 790.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 106,
@@ -1162,8 +1162,8 @@
         "latitude": "13°31'",
         "longitude": "86°17'",
         "msm": 500.00,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 107,
@@ -1173,8 +1173,8 @@
         "latitude": "13°33'",
         "longitude": "86°29'",
         "msm": 660.80,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 108,
@@ -1184,8 +1184,8 @@
         "latitude": "13°29'",
         "longitude": "86°30'",
         "msm": 694.08,
-        "state_id": 13,
-        "measurement_id": 5
+        "stateId": 13,
+        "measurementId": 5
     },
     {
         "id": 109,
@@ -1195,8 +1195,8 @@
         "latitude": "12°55'",
         "longitude": "85°55'",
         "msm": 681.84,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 110,
@@ -1206,8 +1206,8 @@
         "latitude": "12°43'",
         "longitude": "86°07'",
         "msm": 432.70,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 111,
@@ -1217,8 +1217,8 @@
         "latitude": "12°40'",
         "longitude": "85°47'",
         "msm": 520.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 112,
@@ -1228,8 +1228,8 @@
         "latitude": "12°50'",
         "longitude": "85°27'",
         "msm": 297.08,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 113,
@@ -1239,8 +1239,8 @@
         "latitude": "12°45'",
         "longitude": "85°37'",
         "msm": 337.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 114,
@@ -1250,8 +1250,8 @@
         "latitude": "13°14'",
         "longitude": "85°33'",
         "msm": 600.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 115,
@@ -1261,8 +1261,8 @@
         "latitude": "12°56'",
         "longitude": "85°13'",
         "msm": 269.18,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 116,
@@ -1272,8 +1272,8 @@
         "latitude": "12°45'",
         "longitude": "85°51'",
         "msm": 380.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 117,
@@ -1283,8 +1283,8 @@
         "latitude": "12°55'",
         "longitude": "86°11'",
         "msm": 477.93,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 118,
@@ -1294,8 +1294,8 @@
         "latitude": "12°55'",
         "longitude": "85°50'",
         "msm": 640.93,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 119,
@@ -1305,8 +1305,8 @@
         "latitude": "12°51'",
         "longitude": "86°06'",
         "msm": 469.67,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 120,
@@ -1316,8 +1316,8 @@
         "latitude": "12°43'",
         "longitude": "85°58'",
         "msm": 540.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 121,
@@ -1327,8 +1327,8 @@
         "latitude": "13°08'",
         "longitude": "85°44'",
         "msm": 720.00,
-        "state_id": 14,
-        "measurement_id": 5
+        "stateId": 14,
+        "measurementId": 5
     },
     {
         "id": 122,
@@ -1338,8 +1338,8 @@
         "latitude": "13°38'",
         "longitude": "86°28'",
         "msm": 605.59,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 123,
@@ -1349,8 +1349,8 @@
         "latitude": "13°38'",
         "longitude": "86°18'",
         "msm": 640.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 124,
@@ -1360,8 +1360,8 @@
         "latitude": "13°43'",
         "longitude": "86°30'",
         "msm": 882.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 125,
@@ -1371,8 +1371,8 @@
         "latitude": "13°43'",
         "longitude": "86°08'",
         "msm": 580.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 126,
@@ -1382,8 +1382,8 @@
         "latitude": "13°55'",
         "longitude": "86°07'",
         "msm": 679.63,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 127,
@@ -1393,8 +1393,8 @@
         "latitude": "13°39'",
         "longitude": "86°36'",
         "msm": 700.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 128,
@@ -1404,8 +1404,8 @@
         "latitude": "13°39'",
         "longitude": "86°26'",
         "msm": 693.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 129,
@@ -1415,8 +1415,8 @@
         "latitude": "13°45'",
         "longitude": "86°01'",
         "msm": 750.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 130,
@@ -1426,8 +1426,8 @@
         "latitude": "13°34'",
         "longitude": "86°01'",
         "msm": 430.65,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 131,
@@ -1437,8 +1437,8 @@
         "latitude": "13°40'",
         "longitude": "86°19'",
         "msm": 729.14,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 132,
@@ -1448,8 +1448,8 @@
         "latitude": "13°37'",
         "longitude": "86°49'",
         "msm": 300.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 133,
@@ -1459,8 +1459,8 @@
         "latitude": "13°44'",
         "longitude": "86°42'",
         "msm": 770.00,
-        "state_id": 15,
-        "measurement_id": 5
+        "stateId": 15,
+        "measurementId": 5
     },
     {
         "id": 134,
@@ -1470,8 +1470,8 @@
         "latitude": "14°01'",
         "longitude": "82°23'",
         "msm": 10.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 135,
@@ -1481,8 +1481,8 @@
         "latitude": "14°01'",
         "longitude": "84°35'",
         "msm": 180.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 136,
@@ -1492,8 +1492,8 @@
         "latitude": "13°10'",
         "longitude": "84°57'",
         "msm": 80.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 137,
@@ -1503,8 +1503,8 @@
         "latitude": "13°24'",
         "longitude": "83°33'",
         "msm": 5.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 138,
@@ -1514,8 +1514,8 @@
         "latitude": "13°55'",
         "longitude": "84°24'",
         "msm": 60.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 139,
@@ -1525,8 +1525,8 @@
         "latitude": "13°44'",
         "longitude": "84°46'",
         "msm": 200.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 140,
@@ -1536,8 +1536,8 @@
         "latitude": "13°20'",
         "longitude": "85°22'",
         "msm": 420.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 141,
@@ -1547,8 +1547,8 @@
         "latitude": "14°44'",
         "longitude": "83°58'",
         "msm": 30.00,
-        "state_id": 16,
-        "measurement_id": 5
+        "stateId": 16,
+        "measurementId": 5
     },
     {
         "id": 142,
@@ -1558,8 +1558,8 @@
         "latitude": "12°00'",
         "longitude": "83°45'",
         "msm": 20.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 143,
@@ -1569,8 +1569,8 @@
         "latitude": "12°10'",
         "longitude": "83°03'",
         "msm": 4.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 144,
@@ -1580,8 +1580,8 @@
         "latitude": "12°55'",
         "longitude": "83°34'",
         "msm": 5.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 145,
@@ -1591,8 +1591,8 @@
         "latitude": "12°09'",
         "longitude": "84°13'",
         "msm": 9.71,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 146,
@@ -1602,8 +1602,8 @@
         "latitude": "12°49'",
         "longitude": "84°12'",
         "msm": 20.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 147,
@@ -1613,8 +1613,8 @@
         "latitude": "12°14'",
         "longitude": "83°45'",
         "msm": 50.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 148,
@@ -1624,8 +1624,8 @@
         "latitude": "13°06'",
         "longitude": "84°11'",
         "msm": 19.06,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 149,
@@ -1635,8 +1635,8 @@
         "latitude": "12°20'",
         "longitude": "83°40'",
         "msm": 3.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 150,
@@ -1646,8 +1646,8 @@
         "latitude": "12°04'",
         "longitude": "84°32'",
         "msm": 99.69,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 151,
@@ -1657,8 +1657,8 @@
         "latitude": "11°41'",
         "longitude": "84°27'",
         "msm": 210.22,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 152,
@@ -1668,8 +1668,8 @@
         "latitude": "12°30'",
         "longitude": "84°49'",
         "msm": 130.00,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     },
     {
         "id": 153,
@@ -1679,7 +1679,7 @@
         "latitude": "12°47'",
         "longitude": "85°07'",
         "msm": 145.88,
-        "state_id": 17,
-        "measurement_id": 5
+        "stateId": 17,
+        "measurementId": 5
     }
 ]

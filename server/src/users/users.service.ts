@@ -1,4 +1,4 @@
-import prisma from '../utils/prisma'
+import prisma from '../shared/utils/prisma'
 import { AddPersonalInfoInputModel, AddPersonalInfoOutputModel } from '@models/users.model'
 import { UserOutputModel } from '@models/auth.model'
 

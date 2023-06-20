@@ -1,7 +1,7 @@
 import { FastifyReply, FastifyRequest } from 'fastify'
 import { createdUser, findUserByEmail } from './auth.service'
-import { verifyPassword } from '../utils/hash'
-import { generateToken } from '../utils/jwt'
+import { verifyPassword } from '../shared/utils/hash'
+import { generateToken } from '../shared/utils/jwt'
 import { CreateUserInputModel, LoginInputModel } from '../models/auth.model'
 
 export async function registerAuthHandler (
