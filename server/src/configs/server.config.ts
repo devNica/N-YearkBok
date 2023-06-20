@@ -2,7 +2,13 @@ import Fastify, { FastifyReply, FastifyRequest } from 'fastify'
 import fjwt from '@fastify/jwt'
 import userRoutes from '../auth/auth.routes'
 
-export const server = Fastify({logger: true})
+export const server = Fastify({logger: false})
+
+declare module "fastify" {
+    export interface FastifyInstance {
+        authenticate: any
+    }
+}
 
 server.register(fjwt, { 
     secret: 'dfhsjfhdjhfjdhjf'

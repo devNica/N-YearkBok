@@ -1,5 +1,5 @@
 import fastify, { FastifyReply, FastifyRequest } from "fastify";
-import { createdUser, findUserByEmail } from "./auth.service";
+import { createdUser, findAllUsers, findUserByEmail } from "./auth.service";
 import { CreateUserInput, LoginInput } from "./auth.schema";
 import { verifyPassword } from "../utils/hash";
 import { generateToken } from "../utils/jwt";
@@ -43,11 +43,25 @@ export async function loginAuthHandler(
         }
 
         const accessToken = generateToken({ id: user.id, email: user.email })
-
+        console.log(accessToken)
         return reply.code(200).send({
             ...user,
             accessToken
         })
+    } catch (error) {
+        return reply.code(500).send(error)
+    }
+}
+
+export async function fetchAllUsers(
+    _requets: FastifyRequest,
+    reply: FastifyReply
+) {
+    try {
+
+        const users = await findAllUsers()
+
+        return reply.code(200).send(users)
     } catch (error) {
         return reply.code(500).send(error)
     }

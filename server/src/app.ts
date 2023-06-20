@@ -1,6 +1,7 @@
 import { authSchemas } from "./auth/auth.schema"
 import { server } from "./configs/server.config"
 
+
 async function main(){
 
     for (const schema of authSchemas) {

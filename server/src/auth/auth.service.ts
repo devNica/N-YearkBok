@@ -22,3 +22,15 @@ export async function findUserByEmail(email: string) {
 
     return user
 }
+
+export async function findAllUsers() {
+    const users = await prisma.user.findMany({
+        select: {
+            id: true,
+            email: true,
+            phoneNumber: true,
+            createdAt: true
+        }
+    })
+    return users
+}
