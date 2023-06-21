@@ -5,6 +5,7 @@ import authRouter from '@auth/auth.routes'
 import userRouter from '@users/users.routes'
 import constants from '@shared/constants'
 import adminRouter from '../admin/admin.routes'
+import geoRouter from '@geo/geo.routes'
 
 export const server = Fastify({ logger: false })
 
@@ -45,4 +46,8 @@ server.register(userRouter, {
 
 server.register(adminRouter, {
   prefix: '/admin'
+})
+
+server.register(geoRouter, {
+  prefix: '/geo'
 })

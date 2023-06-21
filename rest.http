@@ -37,3 +37,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRmM2Y4NjczL
 
 ### migrate seeds
 GET http://localhost:7600/admin/migrate HTTP/1.1
+
+
+### get macro regions
+GET http://localhost:7600/geo/regions?option=getOnlyRegions HTTP/1.1

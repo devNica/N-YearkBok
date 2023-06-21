@@ -35,6 +35,7 @@
     "@auth": "src/auth",
     "@users": "src/users",
     "@admin": "src/admin",
+    "@geo": "src/geo",
     "@models": "src/models",
     "@seeds": "src/seeds"
   },

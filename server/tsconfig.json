@@ -11,6 +11,7 @@
         "@shared/*": ["shared/*"],
         "@auth/*": ["auth/*"],
         "@users/*": ["users/*"],
+        "@geo/*": ["geo/*"],
         "@models/*": ["models/*"],
         "@seeds/*": ["seeds/*"],
         "@admin/*": ["admin/*"]
