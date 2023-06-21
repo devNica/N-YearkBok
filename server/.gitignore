@@ -144,3 +144,6 @@ dist
 prisma/migrations
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# test file
+test.ts

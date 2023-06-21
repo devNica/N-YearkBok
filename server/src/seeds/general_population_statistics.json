@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "total": [
+            { "range": "00-04", "both": 662029, "male": 338324, "female": 323705, "min_range": 0, "max_range": 4 },
+            { "range": "05-09", "both": 675370, "male": 344987, "female": 330383, "min_range": 5, "max_range": 9 },
+            { "range": "10-14", "both": 659643, "male": 336337, "female": 323306, "min_range": 10, "max_range": 14 },
+            { "range": "15-19", "both": 613771, "male": 312315, "female": 301456, "min_range": 15, "max_range": 19 },
+            { "range": "20-24", "both": 607449, "male": 307010, "female": 300439, "min_range": 20, "max_range": 24 },
+            { "range": "25-29", "both": 596286, "male": 295775, "female": 300511, "min_range": 25, "max_range": 29 },
+            { "range": "30-34", "both": 520798, "male": 254412, "female": 266386, "min_range": 30, "max_range": 34 },
+            { "range": "35-39", "both": 478890, "male": 231068, "female": 247822, "min_range": 35, "max_range": 39 },
+            { "range": "40-44", "both": 396219, "male": 186186, "female": 210033, "min_range": 40, "max_range": 44 },
+            { "range": "45-49", "both": 322553, "male": 152020, "female": 170533, "min_range": 45, "max_range": 49 },
+            { "range": "50-54", "both": 264319, "male": 125888, "female": 138431, "min_range": 50, "max_range": 54 },
+            { "range": "55-59", "both": 227483, "male": 107757, "female": 119726, "min_range": 55, "max_range": 59 },
+            { "range": "60-64", "both": 196405, "male": 91631, "female": 104774, "min_range": 60, "max_range": 64 },
+            { "range": "65-69", "both": 147875, "male": 69100, "female": 78775, "min_range": 65, "max_range": 69 },
+            { "range": "70-74", "both": 81132, "male": 37710, "female": 43422, "min_range": 70, "max_range": 74 },
+            { "range": "75-79", "both": 69312, "male": 31782, "female": 37530, "min_range": 75, "max_range": 79 },
+            { "range": "80-", "both": 76140, "male": 32262, "female": 43878, "min_range": 80, "max_range": 1000 }
+        ],
+        "urban": [
+            { "range": "00-04", "both": 325333, "male": 169119, "female": 156214, "min_range": 0, "max_range": 4 },
+            { "range": "05-09", "both": 353030, "male": 181218, "female": 171812, "min_range": 5, "max_range": 9 },
+            { "range": "10-14", "both": 363051, "male": 184527, "female": 178524, "min_range": 10, "max_range": 14 },
+            { "range": "15-19", "both": 338789, "male": 169893, "female": 168896, "min_range": 15, "max_range": 19 },
+            { "range": "20-24", "both": 350777, "male": 171422, "female": 179355, "min_range": 20, "max_range": 24 },
+            { "range": "25-29", "both": 355561, "male": 170532, "female": 185029, "min_range": 25, "max_range": 29 },
+            { "range": "30-34", "both": 318374, "male": 150132, "female": 168242, "min_range": 30, "max_range": 34 },
+            { "range": "35-39", "both": 304338, "male": 139858, "female": 164480, "min_range": 35, "max_range": 39 },
+            { "range": "40-44", "both": 259325, "male": 120333, "female": 138992, "min_range": 40, "max_range": 44 },
+            { "range": "45-49", "both": 212005, "male": 99347, "female": 112658, "min_range": 45, "max_range": 49 },
+            { "range": "50-54", "both": 172081, "male": 79566, "female": 92515, "min_range": 50, "max_range": 54 },
+            { "range": "55-59", "both": 148658, "male": 67244, "female": 81414, "min_range": 55, "max_range": 59 },
+            { "range": "60-64", "both": 127346, "male": 57065, "female": 70281, "min_range": 60, "max_range": 64 },
+            { "range": "65-69", "both": 95139, "male": 42265, "female": 52874, "min_range": 65, "max_range": 69 },
+            { "range": "70-74", "both": 52557, "male": 23077, "female": 29480, "min_range": 70, "max_range": 74 },
+            { "range": "75-79", "both": 46025, "male": 19872, "female": 26513, "min_range": 75, "max_range": 79 },
+            { "range": "80-", "both": 50850, "male": 19522, "female": 31328, "min_range": 80, "max_range": 1000 }
+        ],
+        "rural": [
+            { "range": "00-04", "both": 336696, "male": 169205, "female": 167491, "min_range": 0, "max_range": 4 },
+            { "range": "05-09", "both": 322340, "male": 163769, "female": 158571, "min_range": 5, "max_range": 9 },
+            { "range": "10-14", "both": 296592, "male": 151810, "female": 144782, "min_range": 10, "max_range": 14 },
+            { "range": "15-19", "both": 274982, "male": 142422, "female": 132560, "min_range": 15, "max_range": 19 },
+            { "range": "20-24", "both": 256672, "male": 135588, "female": 121084, "min_range": 20, "max_range": 24 },
+            { "range": "25-29", "both": 240725, "male": 125243, "female": 115482, "min_range": 25, "max_range": 29 },
+            { "range": "30-34", "both": 202424, "male": 104280, "female": 98144, "min_range": 30, "max_range": 34 },
+            { "range": "35-39", "both": 174552, "male": 91210, "female": 83342, "min_range": 35, "max_range": 39 },
+            { "range": "40-44", "both": 136894, "male": 65853, "female": 71041, "min_range": 40, "max_range": 44 },
+            { "range": "45-49", "both": 110548, "male": 52673, "female": 57875, "min_range": 45, "max_range": 49 },
+            { "range": "50-54", "both": 92238, "male": 46322, "female": 45916, "min_range": 50, "max_range": 54 },
+            { "range": "55-59", "both": 78825, "male": 40513, "female": 38312, "min_range": 55, "max_range": 59 },
+            { "range": "60-64", "both": 69059, "male": 34566, "female": 34493, "min_range": 60, "max_range": 64 },
+            { "range": "65-69", "both": 52736, "male": 26835, "female": 25901, "min_range": 65, "max_range": 69 },
+            { "range": "70-74", "both": 28575, "male": 14633, "female": 13942, "min_range": 70, "max_range": 74 },
+            { "range": "75-79", "both": 23287, "male": 11910, "female": 11377, "min_range": 75, "max_range": 79 },
+            { "range": "80-", "both": 25290, "male": 12740, "female": 12550, "min_range": 80, "max_range": 1000 }
+        ],
+        "periodId": 1
+    }
+]
