@@ -1,9 +1,140 @@
 [
     {
         "id": 1,
+        "year": "2006",
+        "descriptionEn": "data from the national statistical yearbook 2006",
+        "descriptionEs": "datos del anuario estadistico nacional 2006",
+        "url": "-"
+    },
+
+    {
+        "id": 2,
+        "year": "2007",
+        "descriptionEn": "data from the national statistical yearbook 2007",
+        "descriptionEs": "datos del anuario estadistico nacional 2007",
+        "url": "-"
+    },
+
+    {
+        "id": 3,
+        "year": "2008",
+        "descriptionEn": "data from the national statistical yearbook 2008",
+        "descriptionEs": "datos del anuario estadistico nacional 2008",
+        "url": "-"
+    },
+    {
+        "id": 4,
+        "year": "2009",
+        "descriptionEn": "data from the national statistical yearbook 2009",
+        "descriptionEs": "datos del anuario estadistico nacional 2009",
+        "url": "-"
+    },
+
+    {
+        "id": 5,
+        "year": "2010",
+        "descriptionEn": "data from the national statistical yearbook 2010",
+        "descriptionEs": "datos del anuario estadistico nacional 2010",
+        "url": "-"
+    },
+
+    {
+        "id": 6,
+        "year": "2011",
+        "descriptionEn": "data from the national statistical yearbook 2011",
+        "descriptionEs": "datos del anuario estadistico nacional 2011",
+        "url": "-"
+    },
+    {
+        "id": 7,
+        "year": "2012",
+        "descriptionEn": "data from the national statistical yearbook 2012",
+        "descriptionEs": "datos del anuario estadistico nacional 2012",
+        "url": "-"
+    },
+
+    {
+        "id": 8,
+        "year": "2013",
+        "descriptionEn": "data from the national statistical yearbook 2013",
+        "descriptionEs": "datos del anuario estadistico nacional 2013",
+        "url": "-"
+    },
+
+    {
+        "id": 9,
+        "year": "2014",
+        "descriptionEn": "data from the national statistical yearbook 2014",
+        "descriptionEs": "datos del anuario estadistico nacional 2014",
+        "url": "-"
+    },
+    {
+        "id": 10,
+        "year": "2015",
+        "descriptionEn": "data from the national statistical yearbook 2015",
+        "descriptionEs": "datos del anuario estadistico nacional 2015",
+        "url": "-"
+    },
+
+    {
+        "id": 11,
+        "year": "2016",
+        "descriptionEn": "data from the national statistical yearbook 2016",
+        "descriptionEs": "datos del anuario estadistico nacional 2016",
+        "url": "-"
+    },
+
+    {
+        "id": 12,
+        "year": "2017",
+        "descriptionEn": "data from the national statistical yearbook 2017",
+        "descriptionEs": "datos del anuario estadistico nacional 2017",
+        "url": "-"
+    },
+    {
+        "id": 13,
+        "year": "2018",
+        "descriptionEn": "data from the national statistical yearbook 2018",
+        "descriptionEs": "datos del anuario estadistico nacional 2018",
+        "url": "-"
+    },
+
+    {
+        "id": 14,
+        "year": "2019",
+        "descriptionEn": "data from the national statistical yearbook 2019",
+        "descriptionEs": "datos del anuario estadistico nacional 2019",
+        "url": "-"
+    },
+
+    {
+        "id": 15,
+        "year": "2020",
+        "descriptionEn": "data from the national statistical yearbook 2020",
+        "descriptionEs": "datos del anuario estadistico nacional 2020",
+        "url": "-"
+    },
+    {
+        "id": 16,
         "year": "2021",
         "descriptionEn": "data from the national statistical yearbook 2021",
         "descriptionEs": "datos del anuario estadistico nacional 2021",
-        "url": "https://www.inide.gob.ni/docs/Anuarios/Anuario2021/Anuario_Estadistico2021.pdf"
+        "url": "-"
+    },
+
+    {
+        "id": 17,
+        "year": "2022",
+        "descriptionEn": "data from the national statistical yearbook 2022",
+        "descriptionEs": "datos del anuario estadistico nacional 2022",
+        "url": "-"
+    },
+
+    {
+        "id": 18,
+        "year": "2023",
+        "descriptionEn": "data from the national statistical yearbook 2023",
+        "descriptionEs": "datos del anuario estadistico nacional 2023",
+        "url": "-"
     }
 ]

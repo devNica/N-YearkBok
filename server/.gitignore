@@ -147,3 +147,6 @@ prisma/migrations
 
 # test file
 test.ts
+
+# private seeds
+population_statistics_by_state.json

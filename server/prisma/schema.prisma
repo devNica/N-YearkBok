@@ -62,6 +62,7 @@ model State {
   region MacroRegion @relation(fields: [regionId], references: [id])
   regionId Int @map("region_id")
   provinces Province[]
+  stateStatistic PopulationStatisticByState[]
   @@map(name: "state")
 }
 
@@ -78,4 +79,38 @@ model Province {
   state State @relation(fields: [stateId], references: [id])
   stateId Int @map("state_id")
   @@map(name: "province")
+}
+
+
+model Period {
+  id Int @id @unique @default(autoincrement())
+  year String @unique
+  descriptionEn String @map("description_en")
+  descriptionEs String @map("description_es")
+  url String
+  @@map(name: "period")
+  gnralStatistic GeneralPopulationStatistic[]
+  stateStatistic PopulationStatisticByState[]
+}
+
+model GeneralPopulationStatistic {
+  id String @id @unique @default(uuid())
+  total Json @db.JsonB
+  urban Json @db.JsonB
+  rural Json @db.JsonB
+  period Period @relation(fields: [periodId], references: [id])
+  periodId Int @map("period_id")
+  @@map(name: "gnral_population_statistic")
+}
+
+model PopulationStatisticByState {
+  id String @id @unique @default(uuid())
+  total Json @db.JsonB
+  urban Json @db.JsonB
+  rural Json @db.JsonB
+  state State @relation(fields: [stateId], references: [id])
+  stateId Int @map("state_id")
+  period Period @relation(fields: [periodId], references: [id])
+  periodId Int @map("period_id")
+  @@map(name: "population_statistic_by_state")
 }
