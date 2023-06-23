@@ -9,6 +9,7 @@ export async function migrateSeedsHandler (
     await migrateSeeds()
     return await reply.code(201).send({ message: 'Migrate successfully!' })
   } catch (error) {
+    console.log(error)
     return await reply.code(400).send(error)
   }
 }
