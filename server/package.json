@@ -36,6 +36,7 @@
     "@users": "src/users",
     "@admin": "src/admin",
     "@geo": "src/geo",
+    "@population": "src/population",
     "@models": "src/models",
     "@seeds": "src/seeds"
   },

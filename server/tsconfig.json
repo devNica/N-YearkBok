@@ -12,6 +12,7 @@
         "@auth/*": ["auth/*"],
         "@users/*": ["users/*"],
         "@geo/*": ["geo/*"],
+        "@population/*": ["population/*"],
         "@models/*": ["models/*"],
         "@seeds/*": ["seeds/*"],
         "@admin/*": ["admin/*"]
