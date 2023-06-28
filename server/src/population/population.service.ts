@@ -1,6 +1,6 @@
 import { FetchUnifiedStatisticsPopulationOutputModel } from '@models/population.model'
 import prisma from '@shared/utils/prisma'
-import { fetchUnifiedPopulationStatisticQuery, fetchUnifiedPopulationStatisticsInATotalRangeQuery, fetchUnifiedPopulationStatisticsInAgeRangeQuery } from './population.query'
+import { fetchUnifiedPopulationStatisticQuery, fetchUnifiedPopulationStatisticsForAMaleRangeQuery, fetchUnifiedPopulationStatisticsInATotalRangeQuery, fetchUnifiedPopulationStatisticsInAgeRangeQuery } from './population.query'
 
 export type queryOptionType =
   'fetchAll' |
@@ -16,6 +16,8 @@ function queryDesigner (type: queryOptionType, min: number, max: number): string
     return fetchUnifiedPopulationStatisticsInATotalRangeQuery({ min, max })
   } else if (type === 'fetchInAgeRange') {
     return fetchUnifiedPopulationStatisticsInAgeRangeQuery({ min, max })
+  } else if (type === 'fetchInARangeForMale') {
+    return fetchUnifiedPopulationStatisticsForAMaleRangeQuery({ min, max })
   } else return ''
 }
 

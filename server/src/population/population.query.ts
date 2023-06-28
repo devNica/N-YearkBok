@@ -66,3 +66,23 @@ export const fetchUnifiedPopulationStatisticsInAgeRangeQuery = (opt: { min: numb
     CAST(elementos->>'min_range' AS INTEGER) >= ${opt.min} AND
     CAST(elementos->>'max_range' AS INTEGER) <= ${opt.max}
 `
+
+export const fetchUnifiedPopulationStatisticsForAMaleRangeQuery = (opt: { min: number, max: number }): string => `
+    SELECT 
+    gps.id,
+    elementos->>'range' as "range",
+    elementos->>'both' AS "total",
+    elementos->>'male' as "male",
+    elementos->>'female' as "female",
+    elementos->>'min_range' as "min_range",
+    elementos->>'max_range' as "max_range",
+    gps.period_id as "periodId",
+    p.description_es,
+    p.description_en,
+    p.year
+
+    FROM public.gnral_population_statistic gps
+    inner join jsonb_array_elements(gps.total) AS elementos on true
+    inner join "period" p on p.id = gps.period_id
+    WHERE (elementos->>'male'):: numeric between ${opt.min} and ${opt.max}
+`
