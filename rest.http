@@ -43,19 +43,32 @@ GET http://localhost:7600/admin/migrate HTTP/1.1
 GET http://localhost:7600/geo/regions?option=getStatesByRegion&region=1 HTTP/1.1
 
 
-### get all unified population statistics
-GET http://localhost:7600/population/unified?type=fetchAll HTTP/1.1
+### get all total population statistics
+GET http://localhost:7600/population?type=fetchAll HTTP/1.1
 
-### get unified population statistics in a total range
-GET http://localhost:7600/population/unified?type=fetchInATotalRange&min=300000&max=400000 HTTP/1.1
+### get total population statistics in a total range
+GET http://localhost:7600/population?type=fetchInATotalRange&min=300000&max=400000 HTTP/1.1
 
-### get unified population statistics in Age range
-GET http://localhost:7600/population/unified?type=fetchInAgeRange&min=30&max=40 HTTP/1.1
+### get total population statistics in Age range
+GET http://localhost:7600/population?type=fetchInAgeRange&min=30&max=40 HTTP/1.1
 
-### get unified population statistics for a Male
-GET http://localhost:7600/population/unified?type=fetchInARangeForMale&min=10&max=40000 HTTP/1.1
+### get total population statistics for a Male
+GET http://localhost:7600/population?type=fetchInARangeForMale&min=10&max=40000 HTTP/1.1
 
+### get total population statistics for a Female
+GET http://localhost:7600/population?type=fetchInARangeForFemale&min=10&max=40000 HTTP/1.1
 
-### get unified population statistics for a Female
-GET http://localhost:7600/population/unified?type=fetchInARangeForFemale&min=10&max=40000 HTTP/1.1
+### get all rural population statistics
+GET http://localhost:7600/population?type=fetchAll&source=rural HTTP/1.1
 
+### get rural population statistics in a total range
+GET http://localhost:7600/population?type=fetchInATotalRange&min=300000&max=400000&source=rural HTTP/1.1
+
+### get rural population statistics in Age range
+GET http://localhost:7600/population?type=fetchInAgeRange&min=30&max=40&source=rural HTTP/1.1
+
+### get rural population statistics for a Male
+GET http://localhost:7600/population?type=fetchInARangeForMale&min=10&max=40000&source=rural HTTP/1.1
+
+### get rural population statistics for a Female
+GET http://localhost:7600/population?type=fetchInARangeForFemale&min=10&max=40000&source=rural HTTP/1.1

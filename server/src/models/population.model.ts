@@ -13,9 +13,9 @@ const PopulationInfoCoreModel = z.object({
   descriptionEn: z.string()
 })
 
-export type FetchUnifiedStatisticsPopulationOutputModel = z.infer<typeof PopulationInfoCoreModel>
-const GetUnifiedStatisticsPopulationResponseModel = z.array(PopulationInfoCoreModel)
+export type FetchStatisticsPopulationOutputModel = z.infer<typeof PopulationInfoCoreModel>
+const GetStatisticsPopulationResponseModel = z.array(PopulationInfoCoreModel)
 
 export const populationModels = {
-  GetUnifiedStatisticsPopulationResponseModel
+  GetStatisticsPopulationResponseModel
 }

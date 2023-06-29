@@ -1,10 +1,12 @@
 import { FastifyRequest } from 'fastify'
 import { FastifyReply } from 'fastify/types/reply'
-import { fetchUnifiedStatisticsPopulation, queryOptionType } from './population.service'
+import { fetchStatisticsPopulation, queryOptionType } from './population.service'
+import { domain } from './factory.designer'
 
-export async function getUnifiedStatisticsPopulationHandler (
+export async function getStatisticsPopulationHandler (
   request: FastifyRequest<{
     Querystring: {
+      source: domain
       type: queryOptionType
       min: number
       max: number
@@ -14,7 +16,7 @@ export async function getUnifiedStatisticsPopulationHandler (
   reply: FastifyReply
 ): Promise<void> {
   try {
-    const result = await fetchUnifiedStatisticsPopulation({ ...request.query })
+    const result = await fetchStatisticsPopulation({ ...request.query })
     return await reply.code(200).send(result)
   } catch (error) {
     return await reply.code(404).send(error)

@@ -1,8 +1,8 @@
 import { FastifyInstance } from 'fastify'
-import { getUnifiedStatisticsPopulationHandler } from './population.controller'
+import { getStatisticsPopulationHandler } from './population.controller'
 
 const populationRouter = async (server: FastifyInstance): Promise<void> => {
-  server.get('/unified', getUnifiedStatisticsPopulationHandler)
+  server.get('/', getStatisticsPopulationHandler)
 }
 
 export default populationRouter
