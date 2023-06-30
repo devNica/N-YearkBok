@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.header{
+   display: flex;
+   background-color: #0067c6;
+   color: #ffffff;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}

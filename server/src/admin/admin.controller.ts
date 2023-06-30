@@ -9,7 +9,17 @@ export async function migrateSeedsHandler (
     await migrateSeeds()
     return await reply.code(201).send({ message: 'Migrate successfully!' })
   } catch (error) {
-    console.log(error)
+    return await reply.code(400).send(error)
+  }
+}
+
+export async function welcomeHandler (
+  _request: FastifyRequest,
+  reply: FastifyReply
+): Promise<void> {
+  try {
+    return await reply.view('templates/welcome.hbs', {})
+  } catch (error) {
     return await reply.code(400).send(error)
   }
 }

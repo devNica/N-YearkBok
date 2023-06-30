@@ -7,6 +7,10 @@ import constants from '@shared/constants'
 import adminRouter from '../admin/admin.routes'
 import geoRouter from '@geo/geo.routes'
 import populationRouter from '@population/population.routes'
+import fastifyStatic from '@fastify/static'
+import path from 'path'
+import handlebars from 'handlebars'
+import fastifyView from '@fastify/view'
 
 export const server = Fastify({ logger: false })
 
@@ -24,6 +28,24 @@ declare module '@fastify/jwt' {
     }
   }
 }
+
+server.register(fastifyStatic, {
+  root: path.join(__dirname, '../public')
+})
+
+server.register(fastifyView, {
+  engine: {
+    handlebars: handlebars.create()
+  },
+  includeViewExtension: true,
+  templates: 'src/views/',
+  layout: '/layouts/main.hbs',
+  options: {
+    partials: {
+      header: 'partials/header.hbs'
+    }
+  }
+})
 
 server.register(fjwt, {
   secret: constants.JWT_SECRET
